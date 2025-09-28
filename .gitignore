@@ -1,3 +1,31 @@
 /.venv/
 .idea/
-.idea
+/gui/node_modules/
+
+# Python cache & build
+__pycache__/
+*.py[cod]
+*.log
+dist/
+build/
+*.egg-info/
+
+# Outputs / generated
+*.pptx
+*.ppt
+*.tmp
+tmp/
+output/
+*.cache
+
+# Large sample artifacts (keep curated examples only)
+one.json
+one.pptx
+
+# OS / misc
+.DS_Store
+Thumbs.db
+
+# Frontend build
+gui/dist/
+

@@ -1,0 +1,2003 @@
+{
+  "version": "1.0",
+  "ppt": {
+    "size": {
+      "width": 1920,
+      "height": 1080,
+      "unit": "px"
+    },
+    "defaultUnit": "px",
+    "defaultLayout": "blank",
+    "slides": [
+      {
+        "id": "cover",
+        "title": "封面页",
+        "background": {
+          "color": "#0F172A"
+        },
+        "elements": [
+          {
+            "type": "shape",
+            "id": "cover_accent",
+            "shapeType": "rect",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "w": 120,
+              "h": 1080
+            },
+            "fill": "#3B82F6"
+          },
+          {
+            "type": "text",
+            "id": "main_title",
+            "box": {
+              "x": 200,
+              "y": 300,
+              "w": 1520,
+              "h": 150
+            },
+            "text": "2025 年度数据洞察报告",
+            "style": {
+              "fontSize": 86,
+              "color": "#FFFFFF",
+              "bold": true,
+              "fontFamily": "Microsoft YaHei"
+            }
+          },
+          {
+            "type": "text",
+            "id": "subtitle",
+            "box": {
+              "x": 200,
+              "y": 460,
+              "w": 1520,
+              "h": 80
+            },
+            "text": "数字化转型 · 智能分析 · 业务增长",
+            "style": {
+              "fontSize": 36,
+              "color": "#94A3B8",
+              "fontFamily": "Microsoft YaHei Light"
+            }
+          },
+          {
+            "type": "shape",
+            "id": "divider",
+            "shapeType": "rect",
+            "box": {
+              "x": 200,
+              "y": 580,
+              "w": 600,
+              "h": 4
+            },
+            "fill": "#3B82F6"
+          },
+          {
+            "type": "text",
+            "id": "date",
+            "box": {
+              "x": 200,
+              "y": 620,
+              "w": 500,
+              "h": 60
+            },
+            "text": "2025年1月 | 战略分析部",
+            "style": {
+              "fontSize": 24,
+              "color": "#64748B"
+            }
+          },
+          {
+            "type": "image",
+            "id": "logo",
+            "box": {
+              "x": 1600,
+              "y": 900,
+              "w": 200,
+              "h": 120
+            },
+            "source": "base64:iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQIW2P4////fwAJ+wP9L+Z2AAAAABJRU5ErkJggg=="
+          }
+        ]
+      },
+      {
+        "id": "agenda",
+        "title": "议程",
+        "background": {
+          "color": "#FFFFFF"
+        },
+        "elements": [
+          {
+            "type": "shape",
+            "id": "header_bg",
+            "shapeType": "rect",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "w": 1920,
+              "h": 200
+            },
+            "fill": "#F8FAFC"
+          },
+          {
+            "type": "text",
+            "id": "agenda_title",
+            "box": {
+              "x": 120,
+              "y": 60,
+              "w": 800,
+              "h": 80
+            },
+            "text": "今日议程",
+            "style": {
+              "fontSize": 54,
+              "color": "#1E293B",
+              "bold": true
+            }
+          },
+          {
+            "type": "text",
+            "id": "agenda_items",
+            "box": {
+              "x": 180,
+              "y": 280,
+              "w": 800,
+              "h": 600
+            },
+            "paragraphs": [
+              {
+                "text": "01  业务概览与核心指标",
+                "style": {
+                  "fontSize": 32,
+                  "color": "#3B82F6",
+                  "bold": true
+                }
+              },
+              {
+                "text": "02  用户增长趋势分析",
+                "style": {
+                  "fontSize": 32,
+                  "color": "#475569"
+                }
+              },
+              {
+                "text": "03  收入结构与盈利能力",
+                "style": {
+                  "fontSize": 32,
+                  "color": "#475569"
+                }
+              },
+              {
+                "text": "04  市场竞争格局",
+                "style": {
+                  "fontSize": 32,
+                  "color": "#475569"
+                }
+              },
+              {
+                "text": "05  产品矩阵表现",
+                "style": {
+                  "fontSize": 32,
+                  "color": "#475569"
+                }
+              },
+              {
+                "text": "06  2025战略规划",
+                "style": {
+                  "fontSize": 32,
+                  "color": "#475569"
+                }
+              }
+            ]
+          },
+          {
+            "type": "shape",
+            "id": "timeline",
+            "shapeType": "rect",
+            "box": {
+              "x": 1100,
+              "y": 300,
+              "w": 4,
+              "h": 500
+            },
+            "fill": "#E2E8F0"
+          },
+          {
+            "type": "text",
+            "id": "time_labels",
+            "box": {
+              "x": 1150,
+              "y": 300,
+              "w": 600,
+              "h": 500
+            },
+            "paragraphs": [
+              {
+                "text": "09:00 - 09:30",
+                "style": {
+                  "fontSize": 24,
+                  "color": "#94A3B8"
+                }
+              },
+              {
+                "text": "09:30 - 10:00",
+                "style": {
+                  "fontSize": 24,
+                  "color": "#94A3B8"
+                }
+              },
+              {
+                "text": "10:00 - 10:30",
+                "style": {
+                  "fontSize": 24,
+                  "color": "#94A3B8"
+                }
+              },
+              {
+                "text": "10:30 - 11:00",
+                "style": {
+                  "fontSize": 24,
+                  "color": "#94A3B8"
+                }
+              },
+              {
+                "text": "11:00 - 11:30",
+                "style": {
+                  "fontSize": 24,
+                  "color": "#94A3B8"
+                }
+              },
+              {
+                "text": "11:30 - 12:00",
+                "style": {
+                  "fontSize": 24,
+                  "color": "#94A3B8"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kpi_dashboard",
+        "title": "核心KPI仪表板",
+        "background": {
+          "color": "#F1F5F9"
+        },
+        "elements": [
+          {
+            "type": "text",
+            "id": "kpi_title",
+            "box": {
+              "x": 100,
+              "y": 60,
+              "w": 1000,
+              "h": 80
+            },
+            "text": "2024 Q4 核心业务指标",
+            "style": {
+              "fontSize": 48,
+              "color": "#0F172A",
+              "bold": true
+            }
+          },
+          {
+            "type": "shape",
+            "id": "kpi_card_1",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 100,
+              "y": 200,
+              "w": 400,
+              "h": 200
+            },
+            "fill": "#FFFFFF"
+          },
+          {
+            "type": "text",
+            "id": "kpi_1_value",
+            "box": {
+              "x": 120,
+              "y": 230,
+              "w": 360,
+              "h": 80
+            },
+            "text": "￥12.8亿",
+            "style": {
+              "fontSize": 48,
+              "color": "#10B981",
+              "bold": true,
+              "align": "center"
+            }
+          },
+          {
+            "type": "text",
+            "id": "kpi_1_label",
+            "box": {
+              "x": 120,
+              "y": 320,
+              "w": 360,
+              "h": 40
+            },
+            "text": "季度营收 ↑23.5%",
+            "style": {
+              "fontSize": 20,
+              "color": "#64748B",
+              "align": "center"
+            }
+          },
+          {
+            "type": "shape",
+            "id": "kpi_card_2",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 540,
+              "y": 200,
+              "w": 400,
+              "h": 200
+            },
+            "fill": "#FFFFFF"
+          },
+          {
+            "type": "text",
+            "id": "kpi_2_value",
+            "box": {
+              "x": 560,
+              "y": 230,
+              "w": 360,
+              "h": 80
+            },
+            "text": "3.2M",
+            "style": {
+              "fontSize": 48,
+              "color": "#3B82F6",
+              "bold": true,
+              "align": "center"
+            }
+          },
+          {
+            "type": "text",
+            "id": "kpi_2_label",
+            "box": {
+              "x": 560,
+              "y": 320,
+              "w": 360,
+              "h": 40
+            },
+            "text": "月活用户 ↑18.7%",
+            "style": {
+              "fontSize": 20,
+              "color": "#64748B",
+              "align": "center"
+            }
+          },
+          {
+            "type": "shape",
+            "id": "kpi_card_3",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 980,
+              "y": 200,
+              "w": 400,
+              "h": 200
+            },
+            "fill": "#FFFFFF"
+          },
+          {
+            "type": "text",
+            "id": "kpi_3_value",
+            "box": {
+              "x": 1000,
+              "y": 230,
+              "w": 360,
+              "h": 80
+            },
+            "text": "68.4%",
+            "style": {
+              "fontSize": 48,
+              "color": "#F59E0B",
+              "bold": true,
+              "align": "center"
+            }
+          },
+          {
+            "type": "text",
+            "id": "kpi_3_label",
+            "box": {
+              "x": 1000,
+              "y": 320,
+              "w": 360,
+              "h": 40
+            },
+            "text": "用户留存率 ↑5.2%",
+            "style": {
+              "fontSize": 20,
+              "color": "#64748B",
+              "align": "center"
+            }
+          },
+          {
+            "type": "shape",
+            "id": "kpi_card_4",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 1420,
+              "y": 200,
+              "w": 400,
+              "h": 200
+            },
+            "fill": "#FFFFFF"
+          },
+          {
+            "type": "text",
+            "id": "kpi_4_value",
+            "box": {
+              "x": 1440,
+              "y": 230,
+              "w": 360,
+              "h": 80
+            },
+            "text": "4.8",
+            "style": {
+              "fontSize": 48,
+              "color": "#8B5CF6",
+              "bold": true,
+              "align": "center"
+            }
+          },
+          {
+            "type": "text",
+            "id": "kpi_4_label",
+            "box": {
+              "x": 1440,
+              "y": 320,
+              "w": 360,
+              "h": 40
+            },
+            "text": "用户满意度 (5分制)",
+            "style": {
+              "fontSize": 20,
+              "color": "#64748B",
+              "align": "center"
+            }
+          },
+          {
+            "type": "chart",
+            "id": "trend_chart",
+            "chartType": "line",
+            "box": {
+              "x": 100,
+              "y": 450,
+              "w": 1720,
+              "h": 500
+            },
+            "title": "月度增长趋势",
+            "data": {
+              "categories": ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"],
+              "series": [
+                {
+                  "name": "营收(百万)",
+                  "values": [320, 380, 420, 410, 460, 520, 580, 610, 650, 720, 780, 850],
+                  "color": "#10B981"
+                },
+                {
+                  "name": "用户(万)",
+                  "values": [180, 200, 220, 235, 250, 265, 280, 290, 300, 310, 315, 320],
+                  "color": "#3B82F6"
+                },
+                {
+                  "name": "目标营收",
+                  "values": [350, 380, 400, 420, 450, 480, 520, 560, 600, 650, 700, 750],
+                  "color": "#E5E7EB"
+                }
+              ]
+            },
+            "chartOptions": {
+              "legend": true,
+              "dataLabels": false,
+              "valueAxis": {
+                "minimum": 0,
+                "maximum": 900,
+                "majorUnit": 100
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "revenue_analysis",
+        "title": "收入分析",
+        "background": {
+          "color": "#FFFFFF"
+        },
+        "elements": [
+          {
+            "type": "text",
+            "id": "revenue_title",
+            "box": {
+              "x": 100,
+              "y": 60,
+              "w": 800,
+              "h": 70
+            },
+            "text": "收入结构分析",
+            "style": {
+              "fontSize": 42,
+              "color": "#1E293B",
+              "bold": true
+            }
+          },
+          {
+            "type": "chart",
+            "id": "revenue_bar",
+            "chartType": "barStacked",
+            "box": {
+              "x": 100,
+              "y": 180,
+              "w": 850,
+              "h": 400
+            },
+            "title": "产品线收入构成",
+            "data": {
+              "categories": ["Q1", "Q2", "Q3", "Q4"],
+              "series": [
+                {
+                  "name": "企业版",
+                  "values": [450, 520, 580, 650],
+                  "color": "#3B82F6"
+                },
+                {
+                  "name": "专业版",
+                  "values": [280, 310, 340, 380],
+                  "color": "#10B981"
+                },
+                {
+                  "name": "基础版",
+                  "values": [150, 160, 170, 180],
+                  "color": "#F59E0B"
+                },
+                {
+                  "name": "增值服务",
+                  "values": [80, 95, 110, 140],
+                  "color": "#8B5CF6"
+                }
+              ]
+            },
+            "chartOptions": {
+              "legend": true,
+              "dataLabels": true
+            }
+          },
+          {
+            "type": "chart",
+            "id": "revenue_pie",
+            "chartType": "pie",
+            "box": {
+              "x": 1000,
+              "y": 180,
+              "w": 450,
+              "h": 400
+            },
+            "title": "Q4收入占比",
+            "data": {
+              "categories": ["企业版", "专业版", "基础版", "增值服务"],
+              "series": [
+                {
+                  "name": "占比",
+                  "values": [45, 26, 12, 10],
+                  "color": "#3B82F6"
+                }
+              ]
+            },
+            "chartOptions": {
+              "legend": true,
+              "dataLabels": {
+                "enabled": true
+              }
+            }
+          },
+          {
+            "type": "table",
+            "id": "revenue_table",
+            "box": {
+              "x": 100,
+              "y": 620,
+              "w": 1720,
+              "h": 350
+            },
+            "table": {
+              "header": ["产品线", "Q1营收", "Q2营收", "Q3营收", "Q4营收", "全年总计", "同比增长"],
+              "rows": [
+                ["企业版", "￥4.5亿", "￥5.2亿", "￥5.8亿", "￥6.5亿", "￥22.0亿", "+28.5%"],
+                ["专业版", "￥2.8亿", "￥3.1亿", "￥3.4亿", "￥3.8亿", "￥13.1亿", "+22.3%"],
+                ["基础版", "￥1.5亿", "￥1.6亿", "￥1.7亿", "￥1.8亿", "￥6.6亿", "+15.2%"],
+                ["增值服务", "￥0.8亿", "￥0.95亿", "￥1.1亿", "￥1.4亿", "￥4.25亿", "+45.8%"],
+                ["合计", "￥9.6亿", "￥10.85亿", "￥12.0亿", "￥13.5亿", "￥45.95亿", "+26.7%"]
+              ],
+              "columnWidths": [200, 220, 220, 220, 220, 280, 220],
+              "style": {
+                "header": {
+                  "fill": "#1E293B",
+                  "color": "#FFFFFF",
+                  "fontSize": 18,
+                  "bold": true,
+                  "align": "center"
+                },
+                "body": {
+                  "fontSize": 16,
+                  "align": "center",
+                  "color": "#475569"
+                }
+              },
+              "bandedRows": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "user_analysis",
+        "title": "用户分析",
+        "background": {
+          "color": "#F8FAFC"
+        },
+        "elements": [
+          {
+            "type": "text",
+            "id": "user_title",
+            "box": {
+              "x": 100,
+              "y": 50,
+              "w": 800,
+              "h": 70
+            },
+            "text": "用户画像与行为分析",
+            "style": {
+              "fontSize": 42,
+              "color": "#1E293B",
+              "bold": true
+            }
+          },
+          {
+            "type": "shape",
+            "id": "user_bg_1",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 100,
+              "y": 150,
+              "w": 550,
+              "h": 380
+            },
+            "fill": "#FFFFFF"
+          },
+          {
+            "type": "text",
+            "id": "user_segment_title",
+            "box": {
+              "x": 120,
+              "y": 170,
+              "w": 500,
+              "h": 50
+            },
+            "text": "用户细分",
+            "style": {
+              "fontSize": 28,
+              "color": "#334155",
+              "bold": true
+            }
+          },
+          {
+            "type": "chart",
+            "id": "user_segment_chart",
+            "chartType": "bar",
+            "box": {
+              "x": 120,
+              "y": 230,
+              "w": 510,
+              "h": 280
+            },
+            "data": {
+              "categories": ["大企业", "中型企业", "小企业", "个人"],
+              "series": [
+                {
+                  "name": "用户数(万)",
+                  "values": [15, 45, 120, 140],
+                  "color": "#3B82F6"
+                }
+              ]
+            },
+            "chartOptions": {
+              "legend": false,
+              "dataLabels": true
+            }
+          },
+          {
+            "type": "shape",
+            "id": "user_bg_2",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 680,
+              "y": 150,
+              "w": 550,
+              "h": 380
+            },
+            "fill": "#FFFFFF"
+          },
+          {
+            "type": "text",
+            "id": "user_activity_title",
+            "box": {
+              "x": 700,
+              "y": 170,
+              "w": 500,
+              "h": 50
+            },
+            "text": "活跃度分布",
+            "style": {
+              "fontSize": 28,
+              "color": "#334155",
+              "bold": true
+            }
+          },
+          {
+            "type": "chart",
+            "id": "user_activity_chart",
+            "chartType": "area",
+            "box": {
+              "x": 700,
+              "y": 230,
+              "w": 510,
+              "h": 280
+            },
+            "data": {
+              "categories": ["00:00", "04:00", "08:00", "12:00", "16:00", "20:00", "24:00"],
+              "series": [
+                {
+                  "name": "活跃用户",
+                  "values": [2000, 1500, 8000, 12000, 10000, 15000, 5000],
+                  "color": "#10B981"
+                }
+              ]
+            },
+            "chartOptions": {
+              "legend": false,
+              "dataLabels": false
+            }
+          },
+          {
+            "type": "shape",
+            "id": "user_bg_3",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 1260,
+              "y": 150,
+              "w": 550,
+              "h": 380
+            },
+            "fill": "#FFFFFF"
+          },
+          {
+            "type": "text",
+            "id": "user_region_title",
+            "box": {
+              "x": 1280,
+              "y": 170,
+              "w": 500,
+              "h": 50
+            },
+            "text": "地域分布",
+            "style": {
+              "fontSize": 28,
+              "color": "#334155",
+              "bold": true
+            }
+          },
+          {
+            "type": "text",
+            "id": "user_region_list",
+            "box": {
+              "x": 1280,
+              "y": 240,
+              "w": 510,
+              "h": 270
+            },
+            "paragraphs": [
+              {
+                "text": "🥇 华东地区：38.5%",
+                "style": {"fontSize": 22, "color": "#475569"}
+              },
+              {
+                "text": "🥈 华北地区：22.3%",
+                "style": {"fontSize": 22, "color": "#475569"}
+              },
+              {
+                "text": "🥉 华南地区：18.7%",
+                "style": {"fontSize": 22, "color": "#475569"}
+              },
+              {
+                "text": "    西南地区：10.2%",
+                "style": {"fontSize": 22, "color": "#64748B"}
+              },
+              {
+                "text": "    其他地区：10.3%",
+                "style": {"fontSize": 22, "color": "#64748B"}
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "user_insight",
+            "box": {
+              "x": 100,
+              "y": 560,
+              "w": 1720,
+              "h": 380
+            },
+            "paragraphs": [
+              {
+                "text": "关键洞察",
+                "style": {
+                  "fontSize": 32,
+                  "color": "#1E293B",
+                  "bold": true
+                }
+              },
+              {
+                "text": "",
+                "style": {"fontSize": 8}
+              },
+              {
+                "text": "✓ 中小企业用户占比超过80%，是主要增长动力",
+                "style": {
+                  "fontSize": 24,
+                  "color": "#10B981"
+                }
+              },
+              {
+                "text": "✓ 工作时间段(9:00-18:00)活跃度最高，晚高峰出现在20:00-22:00",
+                "style": {
+                  "fontSize": 24,
+                  "color": "#10B981"
+                }
+              },
+              {
+                "text": "✓ 一线城市用户付费意愿强，ARPU值比其他地区高45%",
+                "style": {
+                  "fontSize": 24,
+                  "color": "#10B981"
+                }
+              },
+              {
+                "text": "⚠ 用户流失主要发生在注册后首周，需优化新手引导",
+                "style": {
+                  "fontSize": 24,
+                  "color": "#F59E0B"
+                }
+              },
+              {
+                "text": "⚠ 海外市场渗透率仍较低，存在较大增长空间",
+                "style": {
+                  "fontSize": 24,
+                  "color": "#F59E0B"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "competition",
+        "title": "竞争分析",
+        "background": {
+          "color": "#FFFFFF"
+        },
+        "elements": [
+          {
+            "type": "text",
+            "id": "comp_title",
+            "box": {
+              "x": 100,
+              "y": 60,
+              "w": 800,
+              "h": 70
+            },
+            "text": "市场竞争格局",
+            "style": {
+              "fontSize": 42,
+              "color": "#1E293B",
+              "bold": true
+            }
+          },
+          {
+            "type": "chart",
+            "id": "market_share",
+            "chartType": "pie",
+            "box": {
+              "x": 100,
+              "y": 180,
+              "w": 500,
+              "h": 400
+            },
+            "title": "市场份额分布",
+            "data": {
+              "categories": ["我们", "竞品A", "竞品B", "竞品C", "其他"],
+              "series": [
+                {
+                  "name": "份额",
+                  "values": [28, 22, 18, 15, 17]
+                }
+              ]
+            },
+            "chartOptions": {
+              "legend": true,
+              "dataLabels": true
+            }
+          },
+          {
+            "type": "table",
+            "id": "comp_table",
+            "box": {
+              "x": 650,
+              "y": 180,
+              "w": 1170,
+              "h": 400
+            },
+            "table": {
+              "header": ["指标", "我们", "竞品A", "竞品B", "竞品C", "行业平均"],
+              "rows": [
+                ["市场份额", "28%", "22%", "18%", "15%", "20%"],
+                ["用户规模", "320万", "280万", "230万", "190万", "255万"],
+                ["客单价", "￥3,998", "￥4,599", "￥3,299", "￥2,899", "￥3,699"],
+                ["用户满意度", "4.8", "4.5", "4.3", "4.2", "4.4"],
+                ["功能完整度", "95%", "92%", "88%", "85%", "90%"],
+                ["技术创新度", "★★★★★", "★★★★", "★★★", "★★★", "★★★★"]
+              ],
+              "columnWidths": [180, 180, 180, 180, 180, 180],
+              "style": {
+                "header": {
+                  "fill": "#3B82F6",
+                  "color": "#FFFFFF",
+                  "fontSize": 18,
+                  "bold": true,
+                  "align": "center"
+                },
+                "body": {
+                  "fontSize": 16,
+                  "align": "center"
+                }
+              }
+            }
+          },
+          {
+            "type": "chart",
+            "id": "comp_radar",
+            "chartType": "scatter",
+            "box": {
+              "x": 100,
+              "y": 620,
+              "w": 600,
+              "h": 350
+            },
+            "title": "竞争力对比雷达图",
+            "data": {
+              "categories": ["产品", "价格", "服务", "品牌", "技术"],
+              "series": [
+                {
+                  "name": "我们",
+                  "values": [95, 85, 92, 88, 95],
+                  "color": "#3B82F6"
+                },
+                {
+                  "name": "主要竞品",
+                  "values": [88, 90, 85, 92, 82],
+                  "color": "#EF4444"
+                }
+              ]
+            }
+          },
+          {
+            "type": "text",
+            "id": "comp_swot",
+            "box": {
+              "x": 750,
+              "y": 620,
+              "w": 1070,
+              "h": 350
+            },
+            "paragraphs": [
+              {
+                "text": "SWOT 分析",
+                "style": {
+                  "fontSize": 28,
+                  "color": "#1E293B",
+                  "bold": true
+                }
+              },
+              {
+                "text": "",
+                "style": {"fontSize": 8}
+              },
+              {
+                "text": "优势 Strengths",
+                "style": {"fontSize": 20, "color": "#10B981", "bold": true}
+              },
+              {
+                "text": "• 技术领先，产品功能完整\n• 用户满意度行业最高",
+                "style": {"fontSize": 18, "color": "#475569"}
+              },
+              {
+                "text": "劣势 Weaknesses",
+                "style": {"fontSize": 20, "color": "#EF4444", "bold": true}
+              },
+              {
+                "text": "• 品牌知名度相对较低\n• 海外市场拓展不足",
+                "style": {"fontSize": 18, "color": "#475569"}
+              },
+              {
+                "text": "机会 Opportunities",
+                "style": {"fontSize": 20, "color": "#3B82F6", "bold": true}
+              },
+              {
+                "text": "• 数字化转型需求增长\n• 政策支持力度加大",
+                "style": {"fontSize": 18, "color": "#475569"}
+              },
+              {
+                "text": "威胁 Threats",
+                "style": {"fontSize": 20, "color": "#F59E0B", "bold": true}
+              },
+              {
+                "text": "• 市场竞争日趋激烈\n• 客户需求快速变化",
+                "style": {"fontSize": 18, "color": "#475569"}
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "product_matrix",
+        "title": "产品矩阵",
+        "background": {
+          "color": "#F0F4F8"
+        },
+        "elements": [
+          {
+            "type": "text",
+            "id": "matrix_title",
+            "box": {
+              "x": 100,
+              "y": 50,
+              "w": 1000,
+              "h": 70
+            },
+            "text": "产品矩阵与路线图",
+            "style": {
+              "fontSize": 42,
+              "color": "#1E293B",
+              "bold": true
+            }
+          },
+          {
+            "type": "shape",
+            "id": "product_1",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 100,
+              "y": 150,
+              "w": 420,
+              "h": 350
+            },
+            "fill": "#FFFFFF"
+          },
+          {
+            "type": "text",
+            "id": "product_1_content",
+            "box": {
+              "x": 120,
+              "y": 170,
+              "w": 380,
+              "h": 310
+            },
+            "paragraphs": [
+              {
+                "text": "🚀 企业版 Enterprise",
+                "style": {"fontSize": 26, "color": "#3B82F6", "bold": true}
+              },
+              {
+                "text": "",
+                "style": {"fontSize": 8}
+              },
+              {
+                "text": "目标客户：大型企业",
+                "style": {"fontSize": 18, "color": "#475569"}
+              },
+              {
+                "text": "核心价值：全功能集成平台",
+                "style": {"fontSize": 18, "color": "#475569"}
+              },
+              {
+                "text": "定价：￥39,999/年起",
+                "style": {"fontSize": 18, "color": "#475569"}
+              },
+              {
+                "text": "",
+                "style": {"fontSize": 8}
+              },
+              {
+                "text": "特色功能：",
+                "style": {"fontSize": 18, "color": "#1E293B", "bold": true}
+              },
+              {
+                "text": "• 无限用户数\n• API集成\n• 定制开发\n• 7×24专属支持",
+                "style": {"fontSize": 16, "color": "#64748B"}
+              }
+            ]
+          },
+          {
+            "type": "shape",
+            "id": "product_2",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 550,
+              "y": 150,
+              "w": 420,
+              "h": 350
+            },
+            "fill": "#FFFFFF"
+          },
+          {
+            "type": "text",
+            "id": "product_2_content",
+            "box": {
+              "x": 570,
+              "y": 170,
+              "w": 380,
+              "h": 310
+            },
+            "paragraphs": [
+              {
+                "text": "💼 专业版 Professional",
+                "style": {"fontSize": 26, "color": "#10B981", "bold": true}
+              },
+              {
+                "text": "",
+                "style": {"fontSize": 8}
+              },
+              {
+                "text": "目标客户：中型企业",
+                "style": {"fontSize": 18, "color": "#475569"}
+              },
+              {
+                "text": "核心价值：性价比最优",
+                "style": {"fontSize": 18, "color": "#475569"}
+              },
+              {
+                "text": "定价：￥9,999/年起",
+                "style": {"fontSize": 18, "color": "#475569"}
+              },
+              {
+                "text": "",
+                "style": {"fontSize": 8}
+              },
+              {
+                "text": "特色功能：",
+                "style": {"fontSize": 18, "color": "#1E293B", "bold": true}
+              },
+              {
+                "text": "• 100用户数\n• 高级分析\n• 团队协作\n• 工作日支持",
+                "style": {"fontSize": 16, "color": "#64748B"}
+              }
+            ]
+          },
+          {
+            "type": "shape",
+            "id": "product_3",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 1000,
+              "y": 150,
+              "w": 420,
+              "h": 350
+            },
+            "fill": "#FFFFFF"
+          },
+          {
+            "type": "text",
+            "id": "product_3_content",
+            "box": {
+              "x": 1020,
+              "y": 170,
+              "w": 380,
+              "h": 310
+            },
+            "paragraphs": [
+              {
+                "text": "⭐ 基础版 Basic",
+                "style": {"fontSize": 26, "color": "#F59E0B", "bold": true}
+              },
+              {
+                "text": "",
+                "style": {"fontSize": 8}
+              },
+              {
+                "text": "目标客户：小企业/个人",
+                "style": {"fontSize": 18, "color": "#475569"}
+              },
+              {
+                "text": "核心价值：快速入门",
+                "style": {"fontSize": 18, "color": "#475569"}
+              },
+              {
+                "text": "定价：￥1,999/年起",
+                "style": {"fontSize": 18, "color": "#475569"}
+              },
+              {
+                "text": "",
+                "style": {"fontSize": 8}
+              },
+              {
+                "text": "特色功能：",
+                "style": {"fontSize": 18, "color": "#1E293B", "bold": true}
+              },
+              {
+                "text": "• 10用户数\n• 基础功能\n• 云端存储\n• 邮件支持",
+                "style": {"fontSize": 16, "color": "#64748B"}
+              }
+            ]
+          },
+          {
+            "type": "shape",
+            "id": "product_4",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 1450,
+              "y": 150,
+              "w": 370,
+              "h": 350
+            },
+            "fill": "#EDE9FE"
+          },
+          {
+            "type": "text",
+            "id": "product_4_content",
+            "box": {
+              "x": 1470,
+              "y": 170,
+              "w": 330,
+              "h": 310
+            },
+            "paragraphs": [
+              {
+                "text": "🔮 AI Plus (即将推出)",
+                "style": {"fontSize": 24, "color": "#8B5CF6", "bold": true}
+              },
+              {
+                "text": "",
+                "style": {"fontSize": 8}
+              },
+              {
+                "text": "2025 Q2 发布",
+                "style": {"fontSize": 16, "color": "#A78BFA", "italic": true}
+              },
+              {
+                "text": "",
+                "style": {"fontSize": 8}
+              },
+              {
+                "text": "革命性功能：",
+                "style": {"fontSize": 18, "color": "#6D28D9", "bold": true}
+              },
+              {
+                "text": "• AI智能助手\n• 预测分析\n• 自动化流程\n• 智能决策建议",
+                "style": {"fontSize": 16, "color": "#7C3AED"}
+              },
+              {
+                "text": "",
+                "style": {"fontSize": 12}
+              },
+              {
+                "text": "预期提升效率 60%+",
+                "style": {"fontSize": 18, "color": "#6D28D9", "bold": true}
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "roadmap_title",
+            "box": {
+              "x": 100,
+              "y": 540,
+              "w": 400,
+              "h": 50
+            },
+            "text": "2025 产品路线图",
+            "style": {
+              "fontSize": 32,
+              "color": "#1E293B",
+              "bold": true
+            }
+          },
+          {
+            "type": "shape",
+            "id": "timeline_line",
+            "shapeType": "rect",
+            "box": {
+              "x": 100,
+              "y": 650,
+              "w": 1720,
+              "h": 4
+            },
+            "fill": "#CBD5E1"
+          },
+          {
+            "type": "text",
+            "id": "timeline_q1",
+            "box": {
+              "x": 100,
+              "y": 600,
+              "w": 200,
+              "h": 40
+            },
+            "text": "Q1",
+            "style": {"fontSize": 24, "color": "#3B82F6", "bold": true, "align": "center"}
+          },
+          {
+            "type": "text",
+            "id": "timeline_q1_items",
+            "box": {
+              "x": 100,
+              "y": 670,
+              "w": 380,
+              "h": 120
+            },
+            "text": "• 移动端优化\n• 数据导入工具\n• 新用户引导",
+            "style": {"fontSize": 16, "color": "#64748B"}
+          },
+          {
+            "type": "text",
+            "id": "timeline_q2",
+            "box": {
+              "x": 500,
+              "y": 600,
+              "w": 200,
+              "h": 40
+            },
+            "text": "Q2",
+            "style": {"fontSize": 24, "color": "#10B981", "bold": true, "align": "center"}
+          },
+          {
+            "type": "text",
+            "id": "timeline_q2_items",
+            "box": {
+              "x": 500,
+              "y": 670,
+              "w": 380,
+              "h": 120
+            },
+            "text": "• AI Plus发布\n• 国际化支持\n• 性能优化30%",
+            "style": {"fontSize": 16, "color": "#64748B"}
+          },
+          {
+            "type": "text",
+            "id": "timeline_q3",
+            "box": {
+              "x": 900,
+              "y": 600,
+              "w": 200,
+              "h": 40
+            },
+            "text": "Q3",
+            "style": {"fontSize": 24, "color": "#F59E0B", "bold": true, "align": "center"}
+          },
+          {
+            "type": "text",
+            "id": "timeline_q3_items",
+            "box": {
+              "x": 900,
+              "y": 670,
+              "w": 380,
+              "h": 120
+            },
+            "text": "• 生态系统建设\n• 第三方集成\n• 开发者平台",
+            "style": {"fontSize": 16, "color": "#64748B"}
+          },
+          {
+            "type": "text",
+            "id": "timeline_q4",
+            "box": {
+              "x": 1300,
+              "y": 600,
+              "w": 200,
+              "h": 40
+            },
+            "text": "Q4",
+            "style": {"fontSize": 24, "color": "#8B5CF6", "bold": true, "align": "center"}
+          },
+          {
+            "type": "text",
+            "id": "timeline_q4_items",
+            "box": {
+              "x": 1300,
+              "y": 670,
+              "w": 420,
+              "h": 120
+            },
+            "text": "• 企业2.0版本\n• 区块链技术\n• 全球化部署",
+            "style": {"fontSize": 16, "color": "#64748B"}
+          }
+        ]
+      },
+      {
+        "id": "strategy_2025",
+        "title": "2025战略规划",
+        "background": {
+          "color": "#1E293B"
+        },
+        "elements": [
+          {
+            "type": "text",
+            "id": "strategy_title",
+            "box": {
+              "x": 100,
+              "y": 80,
+              "w": 1720,
+              "h": 80
+            },
+            "text": "2025 战略目标与执行计划",
+            "style": {
+              "fontSize": 54,
+              "color": "#FFFFFF",
+              "bold": true,
+              "align": "center"
+            }
+          },
+          {
+            "type": "shape",
+            "id": "strategy_card_1",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 100,
+              "y": 220,
+              "w": 400,
+              "h": 300
+            },
+            "fill": "#3B82F6"
+          },
+          {
+            "type": "text",
+            "id": "strategy_1_content",
+            "box": {
+              "x": 120,
+              "y": 240,
+              "w": 360,
+              "h": 260
+            },
+            "paragraphs": [
+              {
+                "text": "📈 业务增长",
+                "style": {"fontSize": 28, "color": "#FFFFFF", "bold": true, "align": "center"}
+              },
+              {
+                "text": "",
+                "style": {"fontSize": 12}
+              },
+              {
+                "text": "营收目标：60亿",
+                "style": {"fontSize": 20, "color": "#E0E7FF", "align": "center"}
+              },
+              {
+                "text": "用户目标：500万",
+                "style": {"fontSize": 20, "color": "#E0E7FF", "align": "center"}
+              },
+              {
+                "text": "市场份额：35%",
+                "style": {"fontSize": 20, "color": "#E0E7FF", "align": "center"}
+              },
+              {
+                "text": "",
+                "style": {"fontSize": 12}
+              },
+              {
+                "text": "YoY Growth: +30%",
+                "style": {"fontSize": 24, "color": "#FBBF24", "bold": true, "align": "center"}
+              }
+            ]
+          },
+          {
+            "type": "shape",
+            "id": "strategy_card_2",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 540,
+              "y": 220,
+              "w": 400,
+              "h": 300
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "id": "strategy_2_content",
+            "box": {
+              "x": 560,
+              "y": 240,
+              "w": 360,
+              "h": 260
+            },
+            "paragraphs": [
+              {
+                "text": "🌍 市场拓展",
+                "style": {"fontSize": 28, "color": "#FFFFFF", "bold": true, "align": "center"}
+              },
+              {
+                "text": "",
+                "style": {"fontSize": 12}
+              },
+              {
+                "text": "新增国家：10+",
+                "style": {"fontSize": 20, "color": "#D1FAE5", "align": "center"}
+              },
+              {
+                "text": "海外收入：25%",
+                "style": {"fontSize": 20, "color": "#D1FAE5", "align": "center"}
+              },
+              {
+                "text": "渠道伙伴：200+",
+                "style": {"fontSize": 20, "color": "#D1FAE5", "align": "center"}
+              },
+              {
+                "text": "",
+                "style": {"fontSize": 12}
+              },
+              {
+                "text": "Go Global",
+                "style": {"fontSize": 24, "color": "#FEF3C7", "bold": true, "align": "center"}
+              }
+            ]
+          },
+          {
+            "type": "shape",
+            "id": "strategy_card_3",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 980,
+              "y": 220,
+              "w": 400,
+              "h": 300
+            },
+            "fill": "#8B5CF6"
+          },
+          {
+            "type": "text",
+            "id": "strategy_3_content",
+            "box": {
+              "x": 1000,
+              "y": 240,
+              "w": 360,
+              "h": 260
+            },
+            "paragraphs": [
+              {
+                "text": "🚀 技术创新",
+                "style": {"fontSize": 28, "color": "#FFFFFF", "bold": true, "align": "center"}
+              },
+              {
+                "text": "",
+                "style": {"fontSize": 12}
+              },
+              {
+                "text": "AI功能：15+",
+                "style": {"fontSize": 20, "color": "#EDE9FE", "align": "center"}
+              },
+              {
+                "text": "专利申请：50+",
+                "style": {"fontSize": 20, "color": "#EDE9FE", "align": "center"}
+              },
+              {
+                "text": "研发投入：+40%",
+                "style": {"fontSize": 20, "color": "#EDE9FE", "align": "center"}
+              },
+              {
+                "text": "",
+                "style": {"fontSize": 12}
+              },
+              {
+                "text": "Tech Leading",
+                "style": {"fontSize": 24, "color": "#FDE68A", "bold": true, "align": "center"}
+              }
+            ]
+          },
+          {
+            "type": "shape",
+            "id": "strategy_card_4",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 1420,
+              "y": 220,
+              "w": 400,
+              "h": 300
+            },
+            "fill": "#EF4444"
+          },
+          {
+            "type": "text",
+            "id": "strategy_4_content",
+            "box": {
+              "x": 1440,
+              "y": 240,
+              "w": 360,
+              "h": 260
+            },
+            "paragraphs": [
+              {
+                "text": "👥 组织发展",
+                "style": {"fontSize": 28, "color": "#FFFFFF", "bold": true, "align": "center"}
+              },
+              {
+                "text": "",
+                "style": {"fontSize": 12}
+              },
+              {
+                "text": "团队规模：2000+",
+                "style": {"fontSize": 20, "color": "#FEE2E2", "align": "center"}
+              },
+              {
+                "text": "人才保留：95%",
+                "style": {"fontSize": 20, "color": "#FEE2E2", "align": "center"}
+              },
+              {
+                "text": "培训投入：x2",
+                "style": {"fontSize": 20, "color": "#FEE2E2", "align": "center"}
+              },
+              {
+                "text": "",
+                "style": {"fontSize": 12}
+              },
+              {
+                "text": "People First",
+                "style": {"fontSize": 24, "color": "#FEF08A", "bold": true, "align": "center"}
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "strategy_execution",
+            "box": {
+              "x": 100,
+              "y": 560,
+              "w": 1720,
+              "h": 400
+            },
+            "paragraphs": [
+              {
+                "text": "执行要点 Key Initiatives",
+                "style": {"fontSize": 36, "color": "#F8FAFC", "bold": true}
+              },
+              {
+                "text": "",
+                "style": {"fontSize": 16}
+              },
+              {
+                "text": "1️⃣  加速产品创新，每季度发布重大更新",
+                "style": {"fontSize": 26, "color": "#CBD5E1"}
+              },
+              {
+                "text": "2️⃣  深化客户成功体系，NPS提升至70+",
+                "style": {"fontSize": 26, "color": "#CBD5E1"}
+              },
+              {
+                "text": "3️⃣  构建生态联盟，打造行业标准",
+                "style": {"fontSize": 26, "color": "#CBD5E1"}
+              },
+              {
+                "text": "4️⃣  强化数据驱动决策，建设智能运营体系",
+                "style": {"fontSize": 26, "color": "#CBD5E1"}
+              },
+              {
+                "text": "5️⃣  推进ESG战略，实现可持续发展",
+                "style": {"fontSize": 26, "color": "#CBD5E1"}
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "team",
+        "title": "团队介绍",
+        "background": {
+          "color": "#FAFAFA"
+        },
+        "elements": [
+          {
+            "type": "text",
+            "id": "team_title",
+            "box": {
+              "x": 100,
+              "y": 60,
+              "w": 1720,
+              "h": 70
+            },
+            "text": "核心团队",
+            "style": {
+              "fontSize": 48,
+              "color": "#1E293B",
+              "bold": true,
+              "align": "center"
+            }
+          },
+          {
+            "type": "shape",
+            "id": "team_member_1",
+            "shapeType": "ellipse",
+            "box": {
+              "x": 280,
+              "y": 200,
+              "w": 180,
+              "h": 180
+            },
+            "fill": "#DBEAFE"
+          },
+          {
+            "type": "text",
+            "id": "team_1_info",
+            "box": {
+              "x": 240,
+              "y": 400,
+              "w": 260,
+              "h": 150
+            },
+            "paragraphs": [
+              {
+                "text": "张明",
+                "style": {"fontSize": 24, "color": "#1E293B", "bold": true, "align": "center"}
+              },
+              {
+                "text": "CEO",
+                "style": {"fontSize": 18, "color": "#3B82F6", "align": "center"}
+              },
+              {
+                "text": "15年行业经验\n前Fortune 500高管",
+                "style": {"fontSize": 16, "color": "#64748B", "align": "center"}
+              }
+            ]
+          },
+          {
+            "type": "shape",
+            "id": "team_member_2",
+            "shapeType": "ellipse",
+            "box": {
+              "x": 630,
+              "y": 200,
+              "w": 180,
+              "h": 180
+            },
+            "fill": "#D1FAE5"
+          },
+          {
+            "type": "text",
+            "id": "team_2_info",
+            "box": {
+              "x": 590,
+              "y": 400,
+              "w": 260,
+              "h": 150
+            },
+            "paragraphs": [
+              {
+                "text": "李华",
+                "style": {"fontSize": 24, "color": "#1E293B", "bold": true, "align": "center"}
+              },
+              {
+                "text": "CTO",
+                "style": {"fontSize": 18, "color": "#10B981", "align": "center"}
+              },
+              {
+                "text": "AI专家\n3项国家专利",
+                "style": {"fontSize": 16, "color": "#64748B", "align": "center"}
+              }
+            ]
+          },
+          {
+            "type": "shape",
+            "id": "team_member_3",
+            "shapeType": "ellipse",
+            "box": {
+              "x": 980,
+              "y": 200,
+              "w": 180,
+              "h": 180
+            },
+            "fill": "#FEF3C7"
+          },
+          {
+            "type": "text",
+            "id": "team_3_info",
+            "box": {
+              "x": 940,
+              "y": 400,
+              "w": 260,
+              "h": 150
+            },
+            "paragraphs": [
+              {
+                "text": "王芳",
+                "style": {"fontSize": 24, "color": "#1E293B", "bold": true, "align": "center"}
+              },
+              {
+                "text": "COO",
+                "style": {"fontSize": 18, "color": "#F59E0B", "align": "center"}
+              },
+              {
+                "text": "运营专家\n千万级用户增长",
+                "style": {"fontSize": 16, "color": "#64748B", "align": "center"}
+              }
+            ]
+          },
+          {
+            "type": "shape",
+            "id": "team_member_4",
+            "shapeType": "ellipse",
+            "box": {
+              "x": 1330,
+              "y": 200,
+              "w": 180,
+              "h": 180
+            },
+            "fill": "#EDE9FE"
+          },
+          {
+            "type": "text",
+            "id": "team_4_info",
+            "box": {
+              "x": 1290,
+              "y": 400,
+              "w": 260,
+              "h": 150
+            },
+            "paragraphs": [
+              {
+                "text": "赵强",
+                "style": {"fontSize": 24, "color": "#1E293B", "bold": true, "align": "center"}
+              },
+              {
+                "text": "CFO",
+                "style": {"fontSize": 18, "color": "#8B5CF6", "align": "center"}
+              },
+              {
+                "text": "资本运作\n3轮融资经验",
+                "style": {"fontSize": 16, "color": "#64748B", "align": "center"}
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "team_stats",
+            "box": {
+              "x": 100,
+              "y": 600,
+              "w": 1720,
+              "h": 300
+            },
+            "paragraphs": [
+              {
+                "text": "团队优势",
+                "style": {"fontSize": 32, "color": "#1E293B", "bold": true, "align": "center"}
+              },
+              {
+                "text": "",
+                "style": {"fontSize": 12}
+              },
+              {
+                "text": "🎯 1500+ 员工  |  🌍 8个办公室  |  📚 硕博占比45%  |  🏆 平均工龄4.2年",
+                "style": {"fontSize": 24, "color": "#475569", "align": "center"}
+              },
+              {
+                "text": "",
+                "style": {"fontSize": 12}
+              },
+              {
+                "text": "技术团队600+ | 产品团队200+ | 销售团队400+ | 运营团队300+",
+                "style": {"fontSize": 20, "color": "#64748B", "align": "center"}
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "closing",
+        "title": "结束页",
+        "background": {
+          "color": "#0F172A"
+        },
+        "elements": [
+          {
+            "type": "shape",
+            "id": "closing_accent",
+            "shapeType": "rect",
+            "box": {
+              "x": 0,
+              "y": 400,
+              "w": 100,
+              "h": 280,
+              "unit": "percent"
+            },
+            "fill": "#1E3A8A"
+          },
+          {
+            "type": "text",
+            "id": "closing_main",
+            "box": {
+              "x": 50,
+              "y": 30,
+              "w": 90,
+              "h": 20,
+              "unit": "percent"
+            },
+            "text": "谢谢观看",
+            "style": {
+              "fontSize": 86,
+              "color": "#FFFFFF",
+              "bold": true,
+              "align": "center"
+            }
+          },
+          {
+            "type": "text",
+            "id": "closing_sub",
+            "box": {
+              "x": 50,
+              "y": 50,
+              "w": 90,
+              "h": 10,
+              "unit": "percent"
+            },
+            "text": "Together We Grow",
+            "style": {
+              "fontSize": 42,
+              "color": "#94A3B8",
+              "align": "center",
+              "italic": true
+            }
+          },
+          {
+            "type": "shape",
+            "id": "closing_divider",
+            "shapeType": "rect",
+            "box": {
+              "x": 35,
+              "y": 65,
+              "w": 30,
+              "h": 0.5,
+              "unit": "percent"
+            },
+            "fill": "#3B82F6"
+          },
+          {
+            "type": "text",
+            "id": "contact_info",
+            "box": {
+              "x": 50,
+              "y": 75,
+              "w": 90,
+              "h": 20,
+              "unit": "percent"
+            },
+            "paragraphs": [
+              {
+                "text": "📧 contact@company.com",
+                "style": {"fontSize": 24, "color": "#CBD5E1", "align": "center"}
+              },
+              {
+                "text": "🌐 www.company.com",
+                "style": {"fontSize": 24, "color": "#CBD5E1", "align": "center"}
+              },
+              {
+                "text": "📱 400-888-8888",
+                "style": {"fontSize": 24, "color": "#CBD5E1", "align": "center"}
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
